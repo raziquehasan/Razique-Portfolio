@@ -118,6 +118,11 @@
         #about-me-profile:hover {
             border-radius: 0;
         }
+        @media only screen and (max-width: 600px) {
+           .hide{
+            display: none;
+           }
+        }
     </style>
 </head>
 
@@ -313,9 +318,9 @@
     <section class="ftco-about img ftco-section ftco-no-pb" id="resume-section">
         <div class="container">
             <div class="row">
-                <div class="row d-flex align-items-stretch">
+                <div class="row d-flex align-items-stretch hide">
                     <!-- <div class="row d-flex"> -->
-                    <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="col-md-6 col-lg-5 d-flex hide">
                         <div class="img-about img d-flex align-items-stretch">
                             <div class="overlay">
                                 <div class="row">
@@ -364,59 +369,16 @@
                       
 
                     </div>
-                </div>
-            </div>
-        </div>
-       
-    </section>
-
-    <!-- ------------------------------------------ -->
-    <section class="ftco-about img ftco-section ftco-no-pb" id="project-section">
-        <div class="container">
-            <div class="row">
-                <div class="row d-flex align-items-stretch">
-                    <!-- <div class="row d-flex"> -->
-                    <div class="col-md-6 col-lg-5 d-flex">
-                        <div class="img-about img d-flex align-items-stretch">
-                            <div class="overlay">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-5">
-                                        <div class="about-img">
-                                            <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt=""
-                                                id="about-me-profile">
-                                        </div>
-                                    </div>
-                                    <!-- Details next to profile image -->
-                                    <div class="col-sm-6 col-md-7">
-                                        <div class="about-info">
-                                            <p><span class="title-s">Name: </span> <span>Razique Hasan</span></p>
-                                            <p><span class="title-s">studying in: </span> <span>1st semester b.tech CSE
-                                                </span></p>
-                                            <p><span class="title-s">college: </span> <span>M.A.C.E.T Patna</span></p>
-                                            <p><span class="title-s">Address: </span> <span>Begusarai,Bihar</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                     <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
                         <div class="row justify-content-start pb-3">
                             <div class="col-md-12 heading-section ftco-animate">
 
                                 <h1 class="big">Projects</h1>
                                 <h2 class="mb-4">Projects</h2>
                                 <ul class="about-info mt-4 px-md-0 px-2">
-                                    <li class="d-flex"><span>B.Tech</span> <span>CSE STUDENT </span></li>
+                                 <a href="https://hasanraiyan.github.io/projects/calculator/index.html"> <li class="d-flex"><span>Calculator</span> </li></a>
 
-                                    <li class="d-flex"><span>Institute:</span> <span>Maulana Azad colledge of Engineering</span></li>
-                                    <!-- <li class="d-flex"><span>Language:</span> <span>English, Hindi,urdu</span></li> -->
-                                    <!-- <li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp;
-                                            Tableau</span></li> -->
-                                    <li class="d-flex"><span>10th:</span> <span>St. Judes Vidyalaya, Barauni 91%</span></li>
-                                    <li class="d-flex"><span>12th:</span> <span>St. Judes Vidyalaya, Barauni 75%</span></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -424,7 +386,11 @@
                 </div>
             </div>
         </div>
+       
     </section>
+
+    <!-- ------------------------------------------ -->
+
     <footer class="ftco-footer ftco-section">
         <div class="container">
             <div class="row">
