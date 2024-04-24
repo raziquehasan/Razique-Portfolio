@@ -110,20 +110,19 @@
         .zoom-effect:hover {
             transform: scale(1.1);
         }
-        #about-me-profile{
+
+        #about-me-profile {
             border-radius: 50%;
         }
+        #about-me-profile:hover {
+            border-radius: 0;
+        }
     </style>
-
-
 </head>
-
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Razique Hasan</a>
+            <a class="navbar-brand" href="index.html"><span style="color: #ffbd39;">R</span>azique  <span style="color: #ffbd39;">H</span>asan</a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
                 data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -133,9 +132,10 @@
                 <ul class="navbar-nav nav ml-auto">
                     <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                     <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-                    <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                    <!-- <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
                     <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
                     <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                 -->
                 </ul>
             </div>
         </div>
@@ -148,7 +148,7 @@
                     <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
                         data-scrollax-parent="true">
                         <div class="one-third js-fullheight order-md-last img"
-                            style="background-image:url(images/bg_1.png);">
+                            style="background-image:url(images/bg1.png);">
                             <div class="overlay"></div>
                         </div>
                         <div class="one-forth d-flex  align-items-center ftco-animate"
@@ -167,8 +167,8 @@
 
                                     // Create an array of typing text
                                     const typingTexts = [
-                                        'B.Tech   ',
-                                        'CSE  ',
+                                        'B.Tech',
+                                        'CSE',
                                         'Student  ',
                                     ];
 
@@ -210,9 +210,6 @@
             </div>
         </div>
     </section>
-
-
-
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
         <div class="container">
             <div class="row">
@@ -224,7 +221,8 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-5">
                                         <div class="about-img">
-                                            <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="" id="about-me-profile">
+                                            <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt=""
+                                                id="about-me-profile">
                                         </div>
                                     </div>
                                     <!-- Details next to profile image -->
@@ -303,8 +301,7 @@
 
 
                         </p>
-                        <p><a href="https://www.linkedin.com/in/razique-hasan-73a2832a2/"
-                                class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+                        <p><a href="https://www.linkedin.com/in/razique-hasan-73a2832a2/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
                     </div>
                 </div>
             </div>
